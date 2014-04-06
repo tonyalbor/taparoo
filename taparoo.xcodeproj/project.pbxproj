@@ -21,6 +21,7 @@
 		EA118C4818F0CF78003B4E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA118C2A18F0CF78003B4E0D /* UIKit.framework */; };
 		EA118C5018F0CF78003B4E0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA118C4E18F0CF78003B4E0D /* InfoPlist.strings */; };
 		EA118C5218F0CF78003B4E0D /* taparooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA118C5118F0CF78003B4E0D /* taparooTests.m */; };
+		EAF7D3EB18F0D24A0016B76C /* TaparooButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF7D3EA18F0D24A0016B76C /* TaparooButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EA118C4D18F0CF78003B4E0D /* taparooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "taparooTests-Info.plist"; sourceTree = "<group>"; };
 		EA118C4F18F0CF78003B4E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA118C5118F0CF78003B4E0D /* taparooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taparooTests.m; sourceTree = "<group>"; };
+		EAF7D3E918F0D24A0016B76C /* TaparooButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaparooButton.h; sourceTree = "<group>"; };
+		EAF7D3EA18F0D24A0016B76C /* TaparooButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaparooButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,10 @@
 		EA118C2C18F0CF78003B4E0D /* taparoo */ = {
 			isa = PBXGroup;
 			children = (
-				EA118C3518F0CF78003B4E0D /* AppDelegate.h */,
-				EA118C3618F0CF78003B4E0D /* AppDelegate.m */,
-				EA118C3818F0CF78003B4E0D /* Main.storyboard */,
-				EA118C3B18F0CF78003B4E0D /* ViewController.h */,
-				EA118C3C18F0CF78003B4E0D /* ViewController.m */,
+				EAF7D3E818F0D2240016B76C /* storyboards */,
+				EAF7D3ED18F0D25E0016B76C /* models */,
+				EAF7D3E718F0D2130016B76C /* controllers */,
+				EAF7D3E618F0D2090016B76C /* delegate */,
 				EA118C3E18F0CF78003B4E0D /* Images.xcassets */,
 				EA118C2D18F0CF78003B4E0D /* Supporting Files */,
 			);
@@ -150,6 +152,41 @@
 				EA118C4E18F0CF78003B4E0D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAF7D3E618F0D2090016B76C /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EA118C3518F0CF78003B4E0D /* AppDelegate.h */,
+				EA118C3618F0CF78003B4E0D /* AppDelegate.m */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		EAF7D3E718F0D2130016B76C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA118C3B18F0CF78003B4E0D /* ViewController.h */,
+				EA118C3C18F0CF78003B4E0D /* ViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		EAF7D3E818F0D2240016B76C /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EA118C3818F0CF78003B4E0D /* Main.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+		EAF7D3ED18F0D25E0016B76C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EAF7D3E918F0D24A0016B76C /* TaparooButton.h */,
+				EAF7D3EA18F0D24A0016B76C /* TaparooButton.m */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF7D3EB18F0D24A0016B76C /* TaparooButton.m in Sources */,
 				EA118C3D18F0CF78003B4E0D /* ViewController.m in Sources */,
 				EA118C3718F0CF78003B4E0D /* AppDelegate.m in Sources */,
 				EA118C3318F0CF78003B4E0D /* main.m in Sources */,
@@ -460,6 +498,7 @@
 				EA118C5718F0CF78003B4E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA118C5818F0CF78003B4E0D /* Build configuration list for PBXNativeTarget "taparooTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +507,7 @@
 				EA118C5A18F0CF78003B4E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
