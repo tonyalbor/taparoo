@@ -1,0 +1,254 @@
+TTap it
+v7
+r0
+t332332474.749510
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist" Tap_it-Info.plist
+cCompileXIB "/Users/Tony/code/iphone/Tap it/MainWindow.xib"
+cCompileXIB "/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib"
+cProcessPCH /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch Tap_it_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o" "/Users/Tony/code/iphone/Tap it/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5D03500000000000000132
+t1281164112
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.h
+c000000004E1EC14300000000000001D7
+t1310638403
+s471
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m
+c000000004E1EC1430000000000000A84
+t1310638403
+s2692
+i"Tap_itAppDelegate.h"
+i"Tap_itViewController.h"
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h
+c000000004E1EC2BC000000000000022A
+t1310638780
+s554
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m
+c000000004E1EC6380000000000000693
+t1310639672
+s1683
+i"Tap_itViewController.h"
+
+N/Users/Tony/code/iphone/Tap it/MainWindow.xib
+c000000004E1EC1430000000000004E1D
+t1310638403
+s19997
+
+N/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib
+c000000004E1EC1430000000000001A41
+t1310638403
+s6721
+
+N/Users/Tony/code/iphone/Tap it/Tap_it_Prefix.pch
+c000000004E1EC14300000000000000B5
+t1310638403
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app.dSYM
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist
+t1310639672
+s587
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/MainWindow.nib
+t1310639673
+s1121
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/PkgInfo
+t1310639672
+s8
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap_itViewController.nib
+t1310639673
+s795
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap it.LinkFileList
+c000000004E1EC638000000000000016D
+t1310639672
+s365
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o
+t1310639674
+s6288
+
+N/Users/Tony/code/iphone/Tap it/main.m
+c000000004E1EC1430000000000000166
+t1310638403
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch
+t1310639674
+s15232016
+
+NTap_it-Info.plist
+c000000004E1EC143000000000000038D
+t1310638403
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332332472#332332472#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332332474.641526
+e332332474.703214
+r0
+xCompileC
+xbuild/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o
+x/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m:10:
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:20: error: expected specifier-qualifier-list before 'button'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:21: error: expected specifier-qualifier-list before 'button2'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:22: error: expected specifier-qualifier-list before 'button3'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:23: error: expected specifier-qualifier-list before 'button4'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:24: error: expected specifier-qualifier-list before 'score'
+lSLF07#2@66"Compile /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332332474#332332474#0(702"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m:10:/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:20: error: expected specifier-qualifier-list before 'button'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:21: error: expected specifier-qualifier-list before 'button2'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:22: error: expected specifier-qualifier-list before 'button3'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:23: error: expected specifier-qualifier-list before 'button4'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:24: error: expected specifier-qualifier-list before 'score'5(4@49"Expected specifier-qualifier-list before 'button'332332474#85#123#2(7@80"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332332474#18446744073709551615#0#0(6@58"/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332331203#10#0#10#0#0"0(13@114"Expected specifier-qualifier-list before 'button' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#20#0#20#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#20#0#20#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before 'button2'332332474#208#124#2(7@80"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332332474#18446744073709551615#0#0(6@58"/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332331203#10#0#10#0#0"0(13@115"Expected specifier-qualifier-list before 'button2' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#21#0#21#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#21#0#21#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before 'button3'332332474#332#124#2(7@80"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332332474#18446744073709551615#0#0(6@58"/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332331203#10#0#10#0#0"0(13@115"Expected specifier-qualifier-list before 'button3' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#22#0#22#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#22#0#22#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before 'button4'332332474#456#124#2(7@80"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332332474#18446744073709551615#0#0(6@58"/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332331203#10#0#10#0#0"0(13@115"Expected specifier-qualifier-list before 'button4' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#23#0#23#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#23#0#23#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'score'332332474#580#122#2(7@80"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332332474#18446744073709551615#0#0(6@58"/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332331203#10#0#10#0#0"0(13@113"Expected specifier-qualifier-list before 'score' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#24#0#24#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#24#0#24#0#19"expected * before *0(0#0#58"/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m8619449664#1849"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -include /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch -c "/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m" -o "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o"1#
+
+CCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332332474.699497
+e332332474.749403
+r0
+xCompileC
+xbuild/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o
+x/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:9:
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:20: error: expected specifier-qualifier-list before 'button'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:21: error: expected specifier-qualifier-list before 'button2'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:22: error: expected specifier-qualifier-list before 'button3'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:23: error: expected specifier-qualifier-list before 'button4'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:24: error: expected specifier-qualifier-list before 'score'
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:13: error: no declaration of property 'button' found in the interface
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:14: error: no declaration of property 'button2' found in the interface
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:15: error: no declaration of property 'button3' found in the interface
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:16: error: no declaration of property 'button4' found in the interface
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:17: error: no declaration of property 'score' found in the interface
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m: In function '-[Tap_itViewController click:]':
+o/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:22: error: request for member 'text' in something not a structure or union
+lSLF07#2@69"Compile /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332474#332332474#0(1612"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:9:/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:20: error: expected specifier-qualifier-list before 'button'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:21: error: expected specifier-qualifier-list before 'button2'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:22: error: expected specifier-qualifier-list before 'button3'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:23: error: expected specifier-qualifier-list before 'button4'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h:24: error: expected specifier-qualifier-list before 'score'/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:13: error: no declaration of property 'button' found in the interface/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:14: error: no declaration of property 'button2' found in the interface/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:15: error: no declaration of property 'button3' found in the interface/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:16: error: no declaration of property 'button4' found in the interface/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:17: error: no declaration of property 'score' found in the interface/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m: In function '-[Tap_itViewController click:]':/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m:22: error: request for member 'text' in something not a structure or union11(4@49"Expected specifier-qualifier-list before 'button'332332474#87#123#2(7@83"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#9#0#9#0#0"0(13@114"Expected specifier-qualifier-list before 'button' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#20#0#20#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#20#0#20#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before 'button2'332332474#210#124#2(7@83"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#9#0#9#0#0"0(13@115"Expected specifier-qualifier-list before 'button2' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#21#0#21#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#21#0#21#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before 'button3'332332474#334#124#2(7@83"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#9#0#9#0#0"0(13@115"Expected specifier-qualifier-list before 'button3' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#22#0#22#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#22#0#22#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before 'button4'332332474#458#124#2(7@83"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#9#0#9#0#0"0(13@115"Expected specifier-qualifier-list before 'button4' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#23#0#23#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#23#0#23#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'score'332332474#582#122#2(7@83"In file included from /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#9#0#9#0#0"0(13@113"Expected specifier-qualifier-list before 'score' in /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332332474#18446744073709551615#0#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#24#0#24#0#0"0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h332331580#24#0#24#0#19"expected * before *0(4@58"No declaration of property 'button' found in the interface332332474#704#132#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#13#0#13#0#0"0(4@59"No declaration of property 'button2' found in the interface332332474#836#133#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#14#0#14#0#0"0(4@59"No declaration of property 'button3' found in the interface332332474#969#133#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#15#0#15#0#0"0(4@59"No declaration of property 'button4' found in the interface332332474#1102#133#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#16#0#16#0#0"0(4@57"No declaration of property 'score' found in the interface332332474#1235#131#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#17#0#17#0#0"0(4@63"Request for member 'text' in something not a structure or union332332474#1475#137#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332332472#22#0#22#0#0"0(0#0#61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m8622095264#1855"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -include /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch -c "/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m" -o "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o"1#
+
+CCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o" "/Users/Tony/code/iphone/Tap it/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332332474.639882
+e332332474.699393
+r1
+xCompileC
+xbuild/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o
+x/Users/Tony/code/iphone/Tap it/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/Tony/code/iphone/Tap it/main.m332332474#332332474#0(0"0(0#0#37"/Users/Tony/code/iphone/Tap it/main.m8623487328#1815"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -include /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch -c "/Users/Tony/code/iphone/Tap it/main.m" -o "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/MainWindow.xib"
+s332332472.868433
+e332332473.554359
+r1
+xCompileXIB
+x/Users/Tony/code/iphone/Tap it/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332332472#332332473#0(0"0(0#0#45"/Users/Tony/code/iphone/Tap it/MainWindow.xib8622951840#551"    cd "/Users/Tony/code/iphone/Tap it"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/MainWindow.nib" "/Users/Tony/code/iphone/Tap it/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib"
+s332332472.869333
+e332332473.541442
+r1
+xCompileXIB
+x/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib
+lSLF07#2@35"CompileXIB Tap_itViewController.xib332332472#332332473#0(0"0(0#0#55"/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib8622886560#571"    cd "/Users/Tony/code/iphone/Tap it"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap_itViewController.nib" "/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app.dSYM" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it"
+r0
+
+CLd "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist" Tap_it-Info.plist
+s332332472.865060
+e332332472.868341
+r1
+xProcessInfoPlistFile
+x/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist
+xTap_it-Info.plist
+lSLF07#2@25"Process Tap_it-Info.plist332332472#332332472#0(0"0(0#0#48"/Users/Tony/code/iphone/Tap it/Tap_it-Info.plist7308901739622116352#458"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Tap_it-Info.plist -genpkginfo "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist"0#
+
+CProcessPCH /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch Tap_it_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s332332473.554498
+e332332474.639479
+r1
+xProcessPCH
+x/var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch
+xTap_it_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Tap_it_Prefix.pch332332473#332332474#0(0"0(0#0#48"/Users/Tony/code/iphone/Tap it/Tap_it_Prefix.pch8622977728#1714"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -c "/Users/Tony/code/iphone/Tap it/Tap_it_Prefix.pch" -o /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch0#
+
+CTouch "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"
+r0
+

@@ -1,0 +1,427 @@
+TTap it
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C3671890000000000000110
+t1278636425
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C2A7DA700000000000001E5
+t1277853095
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/stdlib.h
+c000000004BF75A3D0000000000002DF5
+t1274501693
+s11765
+
+N/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/bg1.png
+c000000004E2399380000000000001EAE
+t1310955832
+s7854
+
+N/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/start.png
+c000000004E2391E20000000000000E75
+t1310953954
+s3701
+
+N/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/start2.png
+c000000004E3206DF0000000000000C18
+t1311901407
+s3096
+
+N/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.h
+c000000004E23CEEA00000000000000E5
+t1310969578
+s229
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m
+c000000004E23CEEA0000000000000617
+t1310969578
+s1559
+i"InfoViewController.h"
+
+N/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.xib
+c000000004E23CCC40000000000007F5E
+t1310969028
+s32606
+
+N/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.h
+c000000004E23D0880000000000000180
+t1310969992
+s384
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m
+c000000004E23CEBD000000000000061D
+t1310969533
+s1565
+i"SwitchViewController.h"
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.h
+c000000004E23CE6400000000000001D8
+t1310969444
+s472
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m
+c000000004E1EC1430000000000000A84
+t1310638403
+s2692
+i"Tap_itAppDelegate.h"
+i"Tap_itViewController.h"
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h
+c000000004E23E6730000000000000DE1
+t1310975603
+s3553
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m
+c000000004E26C5E700000000000033E5
+t1311163879
+s13285
+i"Tap_itViewController.h"
+i<stdlib.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/button1.png
+c000000004E238B260000000000001A98
+t1310952230
+s6808
+
+N/Users/Tony/code/iphone/Tap it/Classes/button2.png
+c000000004E238E230000000000000D98
+t1310952995
+s3480
+
+N/Users/Tony/code/iphone/Tap it/MainWindow.xib
+c000000004E23D3EF0000000000007FE5
+t1310970863
+s32741
+
+N/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib
+c000000004E32077500000000000156A5
+t1311901557
+s87717
+
+N/Users/Tony/code/iphone/Tap it/Tap_it_Prefix.pch
+c000000004E1EC14300000000000000B5
+t1310638403
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Untitled-5.png
+c000000004E2203800000000000007BDB
+t1310851968
+s31707
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app.dSYM
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/Info.plist
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/InfoViewController.nib
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/MainWindow.nib
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/PkgInfo
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/Tap it
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/Tap_itViewController.nib
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/Untitled-5.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/bg1.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button1.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button2.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button3.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button4.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button5.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/playerball.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/reset.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/start.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/start2.png
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/InfoViewController.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/SwitchViewController.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/Tap it
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/Tap it.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/Tap_itAppDelegate.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/Tap_itViewController.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/InfoViewController.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/SwitchViewController.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/Tap it
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/Tap it.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/Tap_itAppDelegate.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/Tap_itViewController.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/Tony/code/iphone/Tap it/button3.png
+c000000004E238EC50000000000000D6F
+t1310953157
+s3439
+
+N/Users/Tony/code/iphone/Tap it/button4.png
+c000000004E238EE30000000000000D59
+t1310953187
+s3417
+
+N/Users/Tony/code/iphone/Tap it/button5.png
+c000000004E238F1F0000000000000D5F
+t1310953247
+s3423
+
+N/Users/Tony/code/iphone/Tap it/main.m
+c000000004E1EC1430000000000000166
+t1310638403
+s358
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/playerball.png
+c000000004E1914B800000000000006CA
+t1310266552
+s1738
+
+N/Users/Tony/code/iphone/Tap it/reset.png
+c000000004E23931F0000000000000EF9
+t1310954271
+s3833
+
+N/var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-adkerickxdrmlybxmdahsfyokjbp/Tap_it_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-dytyljlapprfwnatagiuyfmkmsmt/Tap_it_Prefix.pch.gch
+t2
+s0
+
+NTap_it-Info.plist
+c000000004E1EC143000000000000038D
+t1310638403
+s909
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/InfoViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/SwitchViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/Tap_itAppDelegate.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/Tap_itViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/main.o" "/Users/Tony/code/iphone/Tap it/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/InfoViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/SwitchViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/Tap_itAppDelegate.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/Tap_itViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/main.o" "/Users/Tony/code/iphone/Tap it/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.xib"
+r0
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib"
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/Untitled-5.png" Untitled-5.png
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/bg1.png" "../../../CS5/iPhone/Tap It!/bg1.png"
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button1.png" Classes/button1.png
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button2.png" Classes/button2.png
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button3.png" button3.png
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button4.png" button4.png
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/button5.png" button5.png
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/playerball.png" playerball.png
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/reset.png" reset.png
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/start.png" "../../../CS5/iPhone/Tap It!/start.png"
+r0
+
+CCopyPNGFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/start2.png" "../../../CS5/iPhone/Tap It!/start2.png"
+r0
+
+CCpResource "build/Debug-iphoneos/Tap it.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/Tap it" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app.dSYM" "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/Tap it"
+r0
+
+CLd "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv6/Tap it" normal armv6
+r0
+
+CLd "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphoneos/Tap it.build/Objects-normal/armv7/Tap it" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app/Info.plist" Tap_it-Info.plist
+r0
+
+CProcessPCH /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-adkerickxdrmlybxmdahsfyokjbp/Tap_it_Prefix.pch.gch Tap_it_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-dytyljlapprfwnatagiuyfmkmsmt/Tap_it_Prefix.pch.gch Tap_it_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/Tony/code/iphone/Tap it/build/Debug-iphoneos/Tap it.app"
+r0
+

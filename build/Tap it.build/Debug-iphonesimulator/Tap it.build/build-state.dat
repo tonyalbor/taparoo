@@ -1,0 +1,594 @@
+TTap it
+v7
+r0
+t333605203.797735
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist" Tap_it-Info.plist
+cCompileXIB "/Users/Tony/code/iphone/Tap it/MainWindow.xib"
+cCompileXIB "/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib"
+cCpResource "build/Debug-iphonesimulator/Tap it.app/playerball.png" playerball.png
+cCpResource "build/Debug-iphonesimulator/Tap it.app/Untitled-5.png" Untitled-5.png
+cCpResource "build/Debug-iphonesimulator/Tap it.app/button1.png" Classes/button1.png
+cCpResource "build/Debug-iphonesimulator/Tap it.app/button2.png" Classes/button2.png
+cCpResource "build/Debug-iphonesimulator/Tap it.app/button3.png" button3.png
+cCpResource "build/Debug-iphonesimulator/Tap it.app/button4.png" button4.png
+cCpResource "build/Debug-iphonesimulator/Tap it.app/button5.png" button5.png
+cCpResource "build/Debug-iphonesimulator/Tap it.app/start.png" "../../../CS5/iPhone/Tap It!/start.png"
+cCpResource "build/Debug-iphonesimulator/Tap it.app/reset.png" reset.png
+cCpResource "build/Debug-iphonesimulator/Tap it.app/bg1.png" "../../../CS5/iPhone/Tap It!/bg1.png"
+cCompileXIB "/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.xib"
+cCpResource "build/Debug-iphonesimulator/Tap it.app/start2.png" "../../../CS5/iPhone/Tap It!/start2.png"
+cProcessPCH /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch Tap_it_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o" "/Users/Tony/code/iphone/Tap it/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it" normal i386
+cGenerateDSYMFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app.dSYM" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it"
+cTouch "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5D03500000000000000132
+t1281164112
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/bg1.png
+c000000004E2399380000000000001EAE
+t1310955832
+s7854
+
+N/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/start.png
+c000000004E2391E20000000000000E75
+t1310953954
+s3701
+
+N/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/start2.png
+c000000004E3206DF0000000000000C18
+t1311901407
+s3096
+
+N/Users/Tony/code/iphone/Tap it/Classes/Info.xib
+c000000004E23CCC40000000000007F5E
+t1310969028
+s32606
+
+N/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.h
+c000000004E23CEEA00000000000000E5
+t1310969578
+s229
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m
+c000000004E23CEEA0000000000000617
+t1310969578
+s1559
+i"InfoViewController.h"
+
+N/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.xib
+c000000004E23CCC40000000000007F5E
+t1310969028
+s32606
+
+N/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.h
+c000000004E23D0880000000000000180
+t1310969992
+s384
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m
+c000000004E23CEBD000000000000061D
+t1310969533
+s1565
+i"SwitchViewController.h"
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.h
+c000000004E23CE6400000000000001D8
+t1310969444
+s472
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m
+c000000004E1EC1430000000000000A84
+t1310638403
+s2692
+i"Tap_itAppDelegate.h"
+i"Tap_itViewController.h"
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.h
+c000000004E23E6730000000000000DE1
+t1310975603
+s3553
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m
+c000000004E26C5E700000000000033E5
+t1311163879
+s13285
+i"Tap_itViewController.h"
+i<stdlib.h>
+
+N/Users/Tony/code/iphone/Tap it/Classes/button1.png
+c000000004E238B260000000000001A98
+t1310952230
+s6808
+
+N/Users/Tony/code/iphone/Tap it/Classes/button2.png
+c000000004E238E230000000000000D98
+t1310952995
+s3480
+
+N/Users/Tony/code/iphone/Tap it/MainWindow.xib
+c000000004E23D3EF0000000000007FE5
+t1310970863
+s32741
+
+N/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib
+c000000004E32077500000000000156A5
+t1311901557
+s87717
+
+N/Users/Tony/code/iphone/Tap it/Tap_it_Prefix.pch
+c000000004E1EC14300000000000000B5
+t1310638403
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/Untitled-5.png
+c000000004E2203800000000000007BDB
+t1310851968
+s31707
+
+N/Users/Tony/code/iphone/Tap it/bg1.png
+c000000004E23989A0000000000001EAE
+t1310955674
+s7854
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app
+t1311901560
+s680
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app.dSYM
+t1311900826
+s102
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.nib
+t1310969048
+s3550
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist
+t1310639672
+s587
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/InfoViewController.nib
+t1310969831
+s3550
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/MainWindow.nib
+t1310970868
+s1259
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/PkgInfo
+t1310639672
+s8
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it
+t1311900826
+s58140
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap_itViewController.nib
+t1311901560
+s8567
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Untitled-5.png
+t1310852217
+s31707
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/bg1.png
+t1310955876
+s7854
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/button1.png
+t1310952297
+s6808
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/button2.png
+t1310953040
+s3480
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/button3.png
+t1310953319
+s3439
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/button4.png
+t1310953319
+s3417
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/button5.png
+t1310953319
+s3423
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/playerball.png
+t1310852217
+s1738
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/reset.png
+t1310954372
+s3833
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/start.png
+t1310954047
+s3701
+
+N/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/start2.png
+t1311901499
+s3096
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/InfoViewController.o
+t1310969831
+s34520
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/SwitchViewController.o
+t1310970837
+s34984
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap it.LinkFileList
+c000000004E320499000000000000016D
+t1311900825
+s365
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o
+t1310975612
+s48608
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o
+t1311163881
+s109152
+
+N/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o
+t1310639674
+s6288
+
+N/Users/Tony/code/iphone/Tap it/button3.png
+c000000004E238EC50000000000000D6F
+t1310953157
+s3439
+
+N/Users/Tony/code/iphone/Tap it/button4.png
+c000000004E238EE30000000000000D59
+t1310953187
+s3417
+
+N/Users/Tony/code/iphone/Tap it/button5.png
+c000000004E238F1F0000000000000D5F
+t1310953247
+s3423
+
+N/Users/Tony/code/iphone/Tap it/main.m
+c000000004E1EC1430000000000000166
+t1310638403
+s358
+i<UIKit/UIKit.h>
+
+N/Users/Tony/code/iphone/Tap it/playerball.png
+c000000004E1914B800000000000006CA
+t1310266552
+s1738
+
+N/Users/Tony/code/iphone/Tap it/reset.png
+c000000004E23931F0000000000000EF9
+t1310954271
+s3833
+
+N/Users/Tony/code/iphone/Tap it/start.png
+c000000004E23914B0000000000000E65
+t1310953803
+s3685
+
+N/var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch
+t1310639674
+s15232016
+
+NTap_it-Info.plist
+c000000004E1EC143000000000000038D
+t1310638403
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333605203#333605203#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/InfoViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332662631.512904
+e332662631.593190
+r1
+xCompileC
+xbuild/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/InfoViewController.o
+x/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m332662631#332662631#0(0"0(0#0#59"/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m8619127520#1851"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -include /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch -c "/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.m" -o "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/InfoViewController.o"0#
+
+CCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/SwitchViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332663637.524143
+e332663637.596580
+r1
+xCompileC
+xbuild/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/SwitchViewController.o
+x/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m:64: warning: incomplete implementation of class 'SwitchViewController'
+o/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m:64: warning: method definition for '-switchViews:' not found
+lSLF07#2@69"Compile /Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m332663637#332663637#0(256"/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m:64: warning: incomplete implementation of class 'SwitchViewController'/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m:64: warning: method definition for '-switchViews:' not found2(22@57"Incomplete implementation of class 'SwitchViewController'332663637#0#133#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m332662333#64#0#64#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-switchViews:' not found332663637#133#123#0(6@61"/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m332662333#64#0#64#0#35"method definition for '*' not found0(0#0#61"/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m8621784320#1855"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -include /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch -c "/Users/Tony/code/iphone/Tap it/Classes/SwitchViewController.m" -o "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/SwitchViewController.o"0#
+
+CCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332668412.895390
+e332668412.984271
+r1
+xCompileC
+xbuild/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o
+x/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m332668412#332668412#0(0"0(0#0#58"/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m8620795392#1849"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -include /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch -c "/Users/Tony/code/iphone/Tap it/Classes/Tap_itAppDelegate.m" -o "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itAppDelegate.o"0#
+
+CCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o" "/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332856680.833759
+e332856681.073882
+r1
+xCompileC
+xbuild/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o
+x/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m332856680#332856681#0(0"0(0#0#61"/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m8615628800#1855"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -include /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch -c "/Users/Tony/code/iphone/Tap it/Classes/Tap_itViewController.m" -o "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap_itViewController.o"0#
+
+CCompileC "build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o" "/Users/Tony/code/iphone/Tap it/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332332474.639882
+e332332474.699393
+r1
+xCompileC
+xbuild/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o
+x/Users/Tony/code/iphone/Tap it/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/Tony/code/iphone/Tap it/main.m332332474#332332474#0(0"0(0#0#37"/Users/Tony/code/iphone/Tap it/main.m8623487328#1815"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -include /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch -c "/Users/Tony/code/iphone/Tap it/main.m" -o "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/Classes/Info.xib"
+s332661848.133026
+e332661849.041769
+r1
+xCompileXIB
+x/Users/Tony/code/iphone/Tap it/Classes/Info.xib
+lSLF07#2@27"CompileXIB Classes/Info.xib332661848#332661849#0(0"0(0#0#47"/Users/Tony/code/iphone/Tap it/Classes/Info.xib8615007392#547"    cd "/Users/Tony/code/iphone/Tap it"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.nib" "/Users/Tony/code/iphone/Tap it/Classes/Info.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.xib"
+s332662630.987829
+e332662631.511388
+r1
+xCompileXIB
+x/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.xib
+lSLF07#2@41"CompileXIB Classes/InfoViewController.xib332662630#332662631#0(0"0(0#0#61"/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.xib8613925056#575"    cd "/Users/Tony/code/iphone/Tap it"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/InfoViewController.nib" "/Users/Tony/code/iphone/Tap it/Classes/InfoViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/MainWindow.xib"
+s332663667.636847
+e332663668.020277
+r1
+xCompileXIB
+x/Users/Tony/code/iphone/Tap it/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332663667#332663668#0(0"0(0#0#45"/Users/Tony/code/iphone/Tap it/MainWindow.xib8606484320#551"    cd "/Users/Tony/code/iphone/Tap it"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/MainWindow.nib" "/Users/Tony/code/iphone/Tap it/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib"
+s333594359.787747
+e333594360.509030
+r1
+xCompileXIB
+x/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib
+lSLF07#2@35"CompileXIB Tap_itViewController.xib333594359#333594360#0(0"0(0#0#55"/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib8604028192#571"    cd "/Users/Tony/code/iphone/Tap it"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap_itViewController.nib" "/Users/Tony/code/iphone/Tap it/Tap_itViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/Untitled-5.png" Untitled-5.png
+s332545017.625204
+e332545017.663762
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/Untitled-5.png
+xUntitled-5.png
+lSLF07#2@19"Copy Untitled-5.png332545017#332545017#0(0"0(0#0#45"/Users/Tony/code/iphone/Tap it/Untitled-5.png8598439680#439"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/Untitled-5.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/bg1.png" "../../../CS5/iPhone/Tap It!/bg1.png"
+s332648676.593712
+e332648676.604580
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/bg1.png
+x../../../CS5/iPhone/Tap It!/bg1.png
+lSLF07#2@40"Copy ../../../CS5/iPhone/Tap It!/bg1.png332648676#332648676#0(0"0(0#0#66"/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/bg1.png8603265280#460"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/bg1.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/bg1.png" bg1.png
+s332648534.519465
+e332648534.524612
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/bg1.png
+xbg1.png
+lSLF07#2@12"Copy bg1.png332648534#332648534#0(0"0(0#0#38"/Users/Tony/code/iphone/Tap it/bg1.png8604991520#432"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/bg1.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/button1.png" Classes/button1.png
+s332645097.888998
+e332645097.918916
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/button1.png
+xClasses/button1.png
+lSLF07#2@24"Copy Classes/button1.png332645097#332645097#0(0"0(0#0#50"/Users/Tony/code/iphone/Tap it/Classes/button1.png8601065568#444"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/Classes/button1.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/button2.png" Classes/button2.png
+s332645840.870525
+e332645840.883820
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/button2.png
+xClasses/button2.png
+lSLF07#2@24"Copy Classes/button2.png332645840#332645840#0(0"0(0#0#50"/Users/Tony/code/iphone/Tap it/Classes/button2.png8602611712#444"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/Classes/button2.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/button3.png" button3.png
+s332646119.279062
+e332646119.298837
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/button3.png
+xbutton3.png
+lSLF07#2@16"Copy button3.png332646119#332646119#0(0"0(0#0#42"/Users/Tony/code/iphone/Tap it/button3.png8601431680#436"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/button3.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/button4.png" button4.png
+s332646119.280881
+e332646119.290714
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/button4.png
+xbutton4.png
+lSLF07#2@16"Copy button4.png332646119#332646119#0(0"0(0#0#42"/Users/Tony/code/iphone/Tap it/button4.png8604960096#436"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/button4.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/button5.png" button5.png
+s332646119.282886
+e332646119.294928
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/button5.png
+xbutton5.png
+lSLF07#2@16"Copy button5.png332646119#332646119#0(0"0(0#0#42"/Users/Tony/code/iphone/Tap it/button5.png8604883072#436"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/button5.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/playerball.png" playerball.png
+s332545017.624551
+e332545017.667356
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/playerball.png
+xplayerball.png
+lSLF07#2@19"Copy playerball.png332545017#332545017#0(0"0(0#0#45"/Users/Tony/code/iphone/Tap it/playerball.png8613424800#439"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/playerball.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/reset.png" reset.png
+s332647172.373811
+e332647172.384695
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/reset.png
+xreset.png
+lSLF07#2@14"Copy reset.png332647172#332647172#0(0"0(0#0#40"/Users/Tony/code/iphone/Tap it/reset.png8605225984#434"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/reset.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/start.png" "../../../CS5/iPhone/Tap It!/start.png"
+s332646847.775054
+e332646847.780279
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/start.png
+x../../../CS5/iPhone/Tap It!/start.png
+lSLF07#2@42"Copy ../../../CS5/iPhone/Tap It!/start.png332646847#332646847#0(0"0(0#0#68"/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/start.png8603100000#462"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/start.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/start.png" start.png
+s332646638.385666
+e332646638.390563
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/start.png
+xstart.png
+lSLF07#2@14"Copy start.png332646638#332646638#0(0"0(0#0#40"/Users/Tony/code/iphone/Tap it/start.png8602890944#434"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/start.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Tap it.app/start2.png" "../../../CS5/iPhone/Tap It!/start2.png"
+s333594299.748996
+e333594299.786416
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Tap it.app/start2.png
+x../../../CS5/iPhone/Tap It!/start2.png
+lSLF07#2@43"Copy ../../../CS5/iPhone/Tap It!/start2.png333594299#333594299#0(0"0(0#0#69"/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/start2.png8602872448#463"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Tony/code/iphone/Tap it/../../../CS5/iPhone/Tap It!/start2.png" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
+CGenerateDSYMFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app.dSYM" "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it"
+s333593626.016394
+e333593626.094370
+r1
+xGenerateDSYMFile
+x/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app.dSYM
+x/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it
+lSLF07#2@110"GenerateDSYMFile "build/Debug-iphonesimulator/Tap it.app.dSYM" "build/Debug-iphonesimulator/Tap it.app/Tap it"333593626#333593626#0(0"0(0#0#76"/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it8604062112#362"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it" -o "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app.dSYM"0#
+
+CLd "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it" normal i386
+s333593625.487958
+e333593626.016275
+r1
+xLd
+x/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it
+xnormal
+xi386
+lSLF07#2@81"Link /Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it333593625#333593626#0(0"0(0#0#0"8315173711782111232#865"    cd "/Users/Tony/code/iphone/Tap it"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" -filelist "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Objects-normal/i386/Tap it.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Tap it"0#
+
+CProcessInfoPlistFile "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist" Tap_it-Info.plist
+s332332472.865060
+e332332472.868341
+r1
+xProcessInfoPlistFile
+x/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist
+xTap_it-Info.plist
+lSLF07#2@25"Process Tap_it-Info.plist332332472#332332472#0(0"0(0#0#48"/Users/Tony/code/iphone/Tap it/Tap_it-Info.plist7308901739622116352#458"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Tap_it-Info.plist -genpkginfo "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app/Info.plist"0#
+
+CProcessPCH /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch Tap_it_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s332332473.554498
+e332332474.639479
+r1
+xProcessPCH
+x/var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch
+xTap_it_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Tap_it_Prefix.pch332332473#332332474#0(0"0(0#0#48"/Users/Tony/code/iphone/Tap it/Tap_it_Prefix.pch8622977728#1714"    cd "/Users/Tony/code/iphone/Tap it"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-generated-files.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-own-target-headers.hmap" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-all-target-headers.hmap" -iquote "/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/Tap it-project-headers.hmap" "-F/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator" "-I/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/include" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources/i386" "-I/Users/Tony/code/iphone/Tap it/build/Tap it.build/Debug-iphonesimulator/Tap it.build/DerivedSources" -c "/Users/Tony/code/iphone/Tap it/Tap_it_Prefix.pch" -o /var/folders/m3/m3GbgPTMGSKY575Kg0lHi++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tap_it_Prefix-bycdcwwgizinpmhesisjfzclooei/Tap_it_Prefix.pch.gch0#
+
+CTouch "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"
+s333594360.509662
+e333594360.512249
+r1
+xTouch
+x/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app
+lSLF07#2@75"Touch /Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app333594360#333594360#0(0"0(0#0#0"8605752352#265"    cd "/Users/Tony/code/iphone/Tap it"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Tony/code/iphone/Tap it/build/Debug-iphonesimulator/Tap it.app"0#
+
