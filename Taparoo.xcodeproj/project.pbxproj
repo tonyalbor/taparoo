@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0252441B715EA300FCBCF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0252431B715EA300FCBCF9 /* AppDelegate.swift */; };
+		EA0252461B715EA300FCBCF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0252451B715EA300FCBCF9 /* ViewController.swift */; };
+		EA0252491B715EA300FCBCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0252471B715EA300FCBCF9 /* Main.storyboard */; };
+		EA02524B1B715EA300FCBCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA02524A1B715EA300FCBCF9 /* Assets.xcassets */; };
+		EA02524E1B715EA300FCBCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA02524C1B715EA300FCBCF9 /* LaunchScreen.storyboard */; };
+		EA0252591B715EA300FCBCF9 /* TaparooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0252581B715EA300FCBCF9 /* TaparooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0252551B715EA300FCBCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0252381B715EA300FCBCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA02523F1B715EA300FCBCF9;
+			remoteInfo = Taparoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0252401B715EA300FCBCF9 /* Taparoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taparoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0252431B715EA300FCBCF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA0252451B715EA300FCBCF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA0252481B715EA300FCBCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA02524A1B715EA300FCBCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA02524D1B715EA300FCBCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA02524F1B715EA300FCBCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0252541B715EA300FCBCF9 /* TaparooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaparooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0252581B715EA300FCBCF9 /* TaparooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaparooUITests.swift; sourceTree = "<group>"; };
+		EA02525A1B715EA300FCBCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA02523D1B715EA300FCBCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0252511B715EA300FCBCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0252371B715EA300FCBCF9 = {
+			isa = PBXGroup;
+			children = (
+				EA0252421B715EA300FCBCF9 /* Taparoo */,
+				EA0252571B715EA300FCBCF9 /* TaparooUITests */,
+				EA0252411B715EA300FCBCF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0252411B715EA300FCBCF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0252401B715EA300FCBCF9 /* Taparoo.app */,
+				EA0252541B715EA300FCBCF9 /* TaparooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0252421B715EA300FCBCF9 /* Taparoo */ = {
+			isa = PBXGroup;
+			children = (
+				EA0252431B715EA300FCBCF9 /* AppDelegate.swift */,
+				EA0252451B715EA300FCBCF9 /* ViewController.swift */,
+				EA0252471B715EA300FCBCF9 /* Main.storyboard */,
+				EA02524A1B715EA300FCBCF9 /* Assets.xcassets */,
+				EA02524C1B715EA300FCBCF9 /* LaunchScreen.storyboard */,
+				EA02524F1B715EA300FCBCF9 /* Info.plist */,
+			);
+			path = Taparoo;
+			sourceTree = "<group>";
+		};
+		EA0252571B715EA300FCBCF9 /* TaparooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0252581B715EA300FCBCF9 /* TaparooUITests.swift */,
+				EA02525A1B715EA300FCBCF9 /* Info.plist */,
+			);
+			path = TaparooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA02523F1B715EA300FCBCF9 /* Taparoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA02525D1B715EA300FCBCF9 /* Build configuration list for PBXNativeTarget "Taparoo" */;
+			buildPhases = (
+				EA02523C1B715EA300FCBCF9 /* Sources */,
+				EA02523D1B715EA300FCBCF9 /* Frameworks */,
+				EA02523E1B715EA300FCBCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taparoo;
+			productName = Taparoo;
+			productReference = EA0252401B715EA300FCBCF9 /* Taparoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0252531B715EA300FCBCF9 /* TaparooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0252601B715EA300FCBCF9 /* Build configuration list for PBXNativeTarget "TaparooUITests" */;
+			buildPhases = (
+				EA0252501B715EA300FCBCF9 /* Sources */,
+				EA0252511B715EA300FCBCF9 /* Frameworks */,
+				EA0252521B715EA300FCBCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0252561B715EA300FCBCF9 /* PBXTargetDependency */,
+			);
+			name = TaparooUITests;
+			productName = TaparooUITests;
+			productReference = EA0252541B715EA300FCBCF9 /* TaparooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0252381B715EA300FCBCF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tony Albor";
+				TargetAttributes = {
+					EA02523F1B715EA300FCBCF9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EA0252531B715EA300FCBCF9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EA02523F1B715EA300FCBCF9;
+					};
+				};
+			};
+			buildConfigurationList = EA02523B1B715EA300FCBCF9 /* Build configuration list for PBXProject "Taparoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA0252371B715EA300FCBCF9;
+			productRefGroup = EA0252411B715EA300FCBCF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA02523F1B715EA300FCBCF9 /* Taparoo */,
+				EA0252531B715EA300FCBCF9 /* TaparooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA02523E1B715EA300FCBCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA02524E1B715EA300FCBCF9 /* LaunchScreen.storyboard in Resources */,
+				EA02524B1B715EA300FCBCF9 /* Assets.xcassets in Resources */,
+				EA0252491B715EA300FCBCF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0252521B715EA300FCBCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA02523C1B715EA300FCBCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0252461B715EA300FCBCF9 /* ViewController.swift in Sources */,
+				EA0252441B715EA300FCBCF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0252501B715EA300FCBCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0252591B715EA300FCBCF9 /* TaparooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0252561B715EA300FCBCF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA02523F1B715EA300FCBCF9 /* Taparoo */;
+			targetProxy = EA0252551B715EA300FCBCF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0252471B715EA300FCBCF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0252481B715EA300FCBCF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA02524C1B715EA300FCBCF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA02524D1B715EA300FCBCF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA02525B1B715EA300FCBCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA02525C1B715EA300FCBCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA02525E1B715EA300FCBCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taparoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonyalbor.Taparoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA02525F1B715EA300FCBCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taparoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonyalbor.Taparoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA0252611B715EA300FCBCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaparooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonyalbor.TaparooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Taparoo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA0252621B715EA300FCBCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaparooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonyalbor.TaparooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Taparoo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA02523B1B715EA300FCBCF9 /* Build configuration list for PBXProject "Taparoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02525B1B715EA300FCBCF9 /* Debug */,
+				EA02525C1B715EA300FCBCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA02525D1B715EA300FCBCF9 /* Build configuration list for PBXNativeTarget "Taparoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02525E1B715EA300FCBCF9 /* Debug */,
+				EA02525F1B715EA300FCBCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA0252601B715EA300FCBCF9 /* Build configuration list for PBXNativeTarget "TaparooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0252611B715EA300FCBCF9 /* Debug */,
+				EA0252621B715EA300FCBCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0252381B715EA300FCBCF9 /* Project object */;
+}
