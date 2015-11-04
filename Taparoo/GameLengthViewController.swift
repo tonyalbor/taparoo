@@ -33,14 +33,31 @@ class GameLengthViewController: UIViewController, PopUp {
         navigationController?.popViewControllerAnimated(true)
     }
 
-    /*
+    @IBAction func didPressThirtyButton(sender: AnyObject) {
+        gameLength = .Thirty
+    }
+    
+    @IBAction func didPressSixtyButton(sender: AnyObject) {
+        gameLength = .Sixty
+    }
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if let vc = segue.destinationViewController as? GameViewController {
+            
+            guard let mode = gameMode else {
+                return
+            }
+            
+            guard let length = gameLength else {
+                return
+            }
+            
+            vc.game = Game(gameMode: mode, gameLength: length)
+        }
     }
-    */
 
 }
