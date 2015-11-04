@@ -46,21 +46,21 @@ class Game {
     var score: Int = 0
     var timeLeft: Double
     var gameOver: Bool = false
+    var isPaused: Bool = false
     
     // private
     private var pausesRemaining: Int = 3
-    private var paused: Bool = false
     private var timer: NSTimer
-    private var started: Bool = false
+    private var hasStarted: Bool = false
     
     // whether player can pause the game
     var canPause: Bool {
-        return !paused && pausesRemaining > 0
+        return !isPaused && pausesRemaining > 0
     }
     
     // whether player can play a move
     var canPlay: Bool {
-        return !gameOver && !paused && timeLeft > 0
+        return !gameOver && !isPaused && timeLeft > 0
     }
     
     // standard initializer
@@ -75,24 +75,32 @@ class Game {
     
     func start() {
         // todo :: fire off timer
-        started = true
+        hasStarted = true
     }
     
-    func pause() {
+    func pause() -> Bool {
         
         if canPause {
             --pausesRemaining
-            paused = true
+            isPaused = true
             // todo :: pause timer
+            
+            return true
         }
+        
+        return false
     }
     
-    func resume() {
+    func resume() -> Bool {
         
-        if paused {
-            paused = false
+        if isPaused {
+            isPaused = false
             // todo :: resume timer
+            
+            return true
         }
+        
+        return false
     }
     
     func end() {
@@ -103,11 +111,11 @@ class Game {
     func restart() {
         
         gameOver = false
-        paused = false
+        isPaused = false
         score = 0
         timer = NSTimer()
         timeLeft = length.rawValue
-        started = false
+        hasStarted = false
     }
     
     // MARK: - score
@@ -121,12 +129,12 @@ class Game {
     func hitButton(button: TaparooButton) -> Bool {
         
         // can't play a paused game
-        if paused {
+        if isPaused {
             return false
         }
         
         //
-        if !started {
+        if !hasStarted {
             start()
         }
         
