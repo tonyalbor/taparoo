@@ -21,6 +21,7 @@
 		EAE045EA1BDE33C9000D3556 /* PopUpAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE045E91BDE33C9000D3556 /* PopUpAnimator.swift */; settings = {ASSET_TAGS = (); }; };
 		EAE045EC1BDE33F7000D3556 /* PopDownAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE045EB1BDE33F7000D3556 /* PopDownAnimator.swift */; settings = {ASSET_TAGS = (); }; };
 		EAE076CF1BDF2CC300396723 /* TaparooInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE076CE1BDF2CC300396723 /* TaparooInteractionController.swift */; settings = {ASSET_TAGS = (); }; };
+		EAE197431BE9EEE900548886 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE197421BE9EEE900548886 /* Game.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		EAE045E91BDE33C9000D3556 /* PopUpAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpAnimator.swift; sourceTree = "<group>"; };
 		EAE045EB1BDE33F7000D3556 /* PopDownAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDownAnimator.swift; sourceTree = "<group>"; };
 		EAE076CE1BDF2CC300396723 /* TaparooInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaparooInteractionController.swift; sourceTree = "<group>"; };
+		EAE197421BE9EEE900548886 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				EA4698901BDDDFCA00802919 /* GameLengthViewController.swift */,
 				EA6CB0A91BE9CE7D00FFAD95 /* GameViewController.swift */,
 				EA46988C1BDDD7DC00802919 /* TaparooButton.swift */,
+				EAE197421BE9EEE900548886 /* Game.swift */,
 				EAE076CE1BDF2CC300396723 /* TaparooInteractionController.swift */,
 				EA0252471B715EA300FCBCF9 /* Main.storyboard */,
 				EA02524A1B715EA300FCBCF9 /* Assets.xcassets */,
@@ -227,6 +230,7 @@
 				EAE045EC1BDE33F7000D3556 /* PopDownAnimator.swift in Sources */,
 				EA4698911BDDDFCA00802919 /* GameLengthViewController.swift in Sources */,
 				EAE045EA1BDE33C9000D3556 /* PopUpAnimator.swift in Sources */,
+				EAE197431BE9EEE900548886 /* Game.swift in Sources */,
 				EA46988B1BDDD13900802919 /* MainMenuViewController.swift in Sources */,
 				EA0252461B715EA300FCBCF9 /* ViewController.swift in Sources */,
 				EA0252441B715EA300FCBCF9 /* AppDelegate.swift in Sources */,
