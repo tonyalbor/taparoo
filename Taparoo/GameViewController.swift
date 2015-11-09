@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GameViewController: UIViewController {
+class GameViewController: UIViewController, GameDelegate {
     
     @IBOutlet weak var timeLeftLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
@@ -21,6 +21,21 @@ class GameViewController: UIViewController {
     var selectedButton: TaparooButton?
     
     var game: Game?
+    
+    func timerUpdated() {
+        updateTimerLabel()
+    }
+    
+    func timerEnded() {
+        updateTimerLabel()
+        didChangeGame()
+    }
+    
+    func updateTimerLabel() {
+        if let game = game {
+            timeLeftLabel.text = String(format: ":%.1f", game.timeLeft)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +44,7 @@ class GameViewController: UIViewController {
         if let game = game {
             timeLeftLabel.text = ":\(game.timeLeft)"
             scoreLabel.hidden = game.score > 0
+            game.gameDelegate = self
         }
         
         buttonOne.number = 1

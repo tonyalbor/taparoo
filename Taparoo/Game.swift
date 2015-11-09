@@ -27,6 +27,11 @@ enum GameLength: Double {
     case Sixty = 60
 }
 
+protocol GameDelegate {
+    func timerUpdated()
+    func timerEnded()
+}
+
 class Game: NSObject {
     
     // describe game type
@@ -39,7 +44,11 @@ class Game: NSObject {
     var timeLeft: Double
     var state: GameState
     
-    private var timer: NSTimer
+    // timer
+    private var timer: NSTimer?
+    private var timeInterval: NSTimeInterval?
+    
+    var gameDelegate: GameDelegate?
     
     // whether player can pause the game
     var canPause: Bool {
@@ -50,43 +59,41 @@ class Game: NSObject {
     init(gameMode: GameMode, gameLength: GameLength) {
         mode = gameMode
         length = gameLength
-        timeLeft = length.rawValue
-        timer = NSTimer() // todo :: set up
         state = .Waiting
+        timeLeft = length.rawValue
         super.init()
     }
     
     // MARK: - game state modifiers
     
     func start() {
-        // todo :: fire off timer
+        
         state = .Active
+        timeInterval = timeIntervalForGameMode()
+        timer = NSTimer.scheduledTimerWithTimeInterval(timeInterval!, target: self, selector: "tick", userInfo: nil, repeats: true)
     }
     
     func pause() {
-        
-        // todo :: pause timer
-        --pauses
         state = .Paused
+        --pauses
     }
     
     func resume() {
-        
-        // todo :: resume timer
         state = .Active
     }
     
     func end() {
         state = .GameOver
-        // todo :: stop timer
+        timer?.invalidate()
+        timer = nil
     }
     
     func restart() {
         
         state = .Waiting
         score = 0
-        timer = NSTimer()
         timeLeft = length.rawValue
+        gameDelegate?.timerUpdated()
     }
     
     func save() {
@@ -94,7 +101,7 @@ class Game: NSObject {
         // nscoding
     }
     
-    // MARK: - score
+    // MARK: - Score
     
     func hitButton(button: TaparooButton) {
         
@@ -115,6 +122,59 @@ class Game: NSObject {
             
         case .Taparoo:
             score += button.pointValue
+        }
+    }
+    
+    // MARK: - Timer
+    
+    private func timeIntervalForGameMode() -> NSTimeInterval {
+        
+        if mode == .Scatter {
+            return 0.02
+        } else {
+            return 0.1
+        }
+    }
+    
+    func tick() {
+        
+        if state == .Paused {
+            return
+        }
+        
+        guard let timeInterval = timeInterval else {
+            return
+        }
+        
+        switch (mode) {
+            
+        case .Classic:
+            fallthrough
+            
+        case .Endure:
+            fallthrough
+            
+        case .Taparoo:
+            timeLeft -= timeInterval
+            break
+            
+        case .Scatter:
+            // scatter the buttons around
+            timeLeft -= timeInterval
+            break
+        }
+        
+        if timeLeft <= 0 {
+            
+            timeLeft = 0
+            timer?.invalidate()
+            timer = nil
+            
+            state = .GameOver
+            
+            gameDelegate?.timerEnded()
+        } else {
+            gameDelegate?.timerUpdated()
         }
     }
 }
