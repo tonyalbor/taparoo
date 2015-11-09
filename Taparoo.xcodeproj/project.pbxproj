@@ -13,15 +13,15 @@
 		EA02524B1B715EA300FCBCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA02524A1B715EA300FCBCF9 /* Assets.xcassets */; };
 		EA02524E1B715EA300FCBCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA02524C1B715EA300FCBCF9 /* LaunchScreen.storyboard */; };
 		EA0252591B715EA300FCBCF9 /* TaparooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0252581B715EA300FCBCF9 /* TaparooUITests.swift */; };
-		EA46988B1BDDD13900802919 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46988A1BDDD13900802919 /* MainMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		EA46988D1BDDD7DC00802919 /* TaparooButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46988C1BDDD7DC00802919 /* TaparooButton.swift */; settings = {ASSET_TAGS = (); }; };
-		EA46988F1BDDDC5F00802919 /* TaparooNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46988E1BDDDC5F00802919 /* TaparooNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		EA4698911BDDDFCA00802919 /* GameLengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4698901BDDDFCA00802919 /* GameLengthViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		EA6CB0AA1BE9CE7D00FFAD95 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CB0A91BE9CE7D00FFAD95 /* GameViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		EAE045EA1BDE33C9000D3556 /* PopUpAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE045E91BDE33C9000D3556 /* PopUpAnimator.swift */; settings = {ASSET_TAGS = (); }; };
-		EAE045EC1BDE33F7000D3556 /* PopDownAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE045EB1BDE33F7000D3556 /* PopDownAnimator.swift */; settings = {ASSET_TAGS = (); }; };
-		EAE076CF1BDF2CC300396723 /* TaparooInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE076CE1BDF2CC300396723 /* TaparooInteractionController.swift */; settings = {ASSET_TAGS = (); }; };
-		EAE197431BE9EEE900548886 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE197421BE9EEE900548886 /* Game.swift */; settings = {ASSET_TAGS = (); }; };
+		EA46988B1BDDD13900802919 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46988A1BDDD13900802919 /* MainMenuViewController.swift */; };
+		EA46988D1BDDD7DC00802919 /* TaparooButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46988C1BDDD7DC00802919 /* TaparooButton.swift */; };
+		EA46988F1BDDDC5F00802919 /* TaparooNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46988E1BDDDC5F00802919 /* TaparooNavigationViewController.swift */; };
+		EA4698911BDDDFCA00802919 /* GameLengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4698901BDDDFCA00802919 /* GameLengthViewController.swift */; };
+		EA6CB0AA1BE9CE7D00FFAD95 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CB0A91BE9CE7D00FFAD95 /* GameViewController.swift */; };
+		EAE045EA1BDE33C9000D3556 /* PopUpAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE045E91BDE33C9000D3556 /* PopUpAnimator.swift */; };
+		EAE045EC1BDE33F7000D3556 /* PopDownAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE045EB1BDE33F7000D3556 /* PopDownAnimator.swift */; };
+		EAE076CF1BDF2CC300396723 /* TaparooInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE076CE1BDF2CC300396723 /* TaparooInteractionController.swift */; };
+		EAE197431BE9EEE900548886 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE197421BE9EEE900548886 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zue-w0-fY1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zue-w0-fY1">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -14,6 +14,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rkm-wJ-ZTN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kFT-Ji-qTt"/>
@@ -35,8 +36,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbg-Oz-TO0" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbg-Oz-TO0" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="30" y="131" width="240" height="75"/>
+                                <animations/>
                                 <color key="backgroundColor" red="1" green="0.3849481206" blue="0.45591583899999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="j3d-Cy-uWF"/>
@@ -56,8 +58,9 @@
                                     <segue destination="XB0-5U-aNh" kind="show" id="xO6-KK-CZu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxr-Ea-qsM" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
-                                <rect key="frame" x="330" y="130" width="240" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxr-Ea-qsM" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
+                                <rect key="frame" x="330" y="131" width="240" height="75"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="lna-aU-QQC"/>
@@ -77,11 +80,12 @@
                                     <segue destination="XB0-5U-aNh" kind="show" id="ekp-su-Afd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaR-1f-11q" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
-                                <rect key="frame" x="330" y="245" width="240" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaR-1f-11q" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
+                                <rect key="frame" x="330" y="246" width="240" height="75"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.92153934525515568" green="0.98684210526315785" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Scatter">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="didPressGameModeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hPO-0a-frE"/>
@@ -90,41 +94,47 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Game Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLH-fH-V0n">
                                 <rect key="frame" x="40" y="50" width="520" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZG-ec-ZPc">
-                                <rect key="frame" x="180" y="360" width="240" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZG-ec-ZPc">
+                                <rect key="frame" x="180" y="361" width="240" height="38"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Settings">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7G-Ry-Rd4">
-                                <rect key="frame" x="180" y="458" width="240" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7G-Ry-Rd4">
+                                <rect key="frame" x="180" y="459" width="240" height="38"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Leaderboards">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goU-pf-R3v">
-                                <rect key="frame" x="180" y="418" width="50" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goU-pf-R3v">
+                                <rect key="frame" x="180" y="419" width="50" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="un3-3L-Nmc">
-                                <rect key="frame" x="392" y="418" width="28" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="un3-3L-Nmc">
+                                <rect key="frame" x="392" y="419" width="28" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lur-HQ-jff" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
-                                <rect key="frame" x="30" y="245" width="240" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lur-HQ-jff" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
+                                <rect key="frame" x="30" y="246" width="240" height="75"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.45376595811494697" green="0.98684210526315785" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Taparoo">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="didPressGameModeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oe6-fg-61K"/>
@@ -132,6 +142,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.61723527940703082" green="1" blue="0.79904182103256782" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="J7G-Ry-Rd4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2ec-KF-Nku"/>
@@ -141,6 +152,7 @@
                             <constraint firstItem="RaR-1f-11q" firstAttribute="height" secondItem="vbg-Oz-TO0" secondAttribute="height" id="5Df-89-7LO"/>
                             <constraint firstItem="Lur-HQ-jff" firstAttribute="height" secondItem="vbg-Oz-TO0" secondAttribute="height" id="6Ue-pD-dnh"/>
                             <constraint firstItem="Lur-HQ-jff" firstAttribute="top" secondItem="vbg-Oz-TO0" secondAttribute="bottom" constant="40" id="8ft-7P-oxp"/>
+                            <constraint firstItem="yLH-fH-V0n" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Amk-3R-HPB"/>
                             <constraint firstItem="vbg-Oz-TO0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.125" id="BCb-OL-g6B"/>
                             <constraint firstItem="rZG-ec-ZPc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DTk-nS-auO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yLH-fH-V0n" secondAttribute="trailing" constant="20" id="Kk6-vU-eJe"/>
@@ -188,18 +200,21 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svc-0y-SvX">
                                 <rect key="frame" x="0.0" y="49" width="600" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Timing Option" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45g-Vm-WG4">
                                 <rect key="frame" x="0.0" y="99" width="600" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjg-sh-TGm">
                                 <rect key="frame" x="69" y="54" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="nice:" destination="XB0-5U-aNh" eventType="touchUpInside" id="jOO-ql-oBe"/>
@@ -207,6 +222,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uho-8Z-UrI">
                                 <rect key="frame" x="339" y="219" width="30" height="30"/>
+                                <animations/>
                                 <state key="normal" title="1:00"/>
                                 <connections>
                                     <action selector="didPressSixtyButton:" destination="XB0-5U-aNh" eventType="touchUpInside" id="dpW-yt-fmt"/>
@@ -215,6 +231,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbD-44-on6">
                                 <rect key="frame" x="230" y="219" width="30" height="30"/>
+                                <animations/>
                                 <state key="normal" title=":30"/>
                                 <connections>
                                     <action selector="didPressThirtyButton:" destination="XB0-5U-aNh" eventType="touchUpInside" id="Wdn-hK-8XJ"/>
@@ -222,6 +239,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="45g-Vm-WG4" firstAttribute="leading" secondItem="svc-0y-SvX" secondAttribute="leading" id="4DN-ul-JOe"/>
@@ -274,19 +292,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjY-Pf-XAM">
-                                <rect key="frame" x="20" y="49" width="560" height="21"/>
+                                <rect key="frame" x="20" y="50" width="560" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":30.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uU-MM-gpD">
-                                <rect key="frame" x="20" y="77" width="560" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <rect key="frame" x="20" y="79" width="560" height="42"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="GPM-qi-rh0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1s4-tl-xQ2">
-                                <rect key="frame" x="514" y="93" width="42" height="30"/>
+                                <rect key="frame" x="514" y="85" width="42" height="30"/>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Pause">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -295,38 +319,125 @@
                                     <action selector="didPressPauseButton:" destination="YBB-QQ-PLb" eventType="touchUpInside" id="mns-a3-mZd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohD-8k-JdQ" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
+                                <rect key="frame" x="30" y="131" width="240" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.3849481206" blue="0.45591583899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Tap It!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedIt:" destination="YBB-QQ-PLb" eventType="touchUpInside" id="0u7-eG-5gQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwS-Mi-zbv" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
+                                <rect key="frame" x="330" y="131" width="240" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Tap It!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedIt:" destination="YBB-QQ-PLb" eventType="touchUpInside" id="vs3-t9-a2I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlF-Wt-wVG" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
+                                <rect key="frame" x="30" y="246" width="240" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.45376595809999998" green="0.98684210530000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Tap It!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedIt:" destination="YBB-QQ-PLb" eventType="touchUpInside" id="mV8-z0-cbY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQv-BH-aQd" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
+                                <rect key="frame" x="330" y="246" width="240" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.92153934530000003" green="0.98684210530000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Tap It!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedIt:" destination="YBB-QQ-PLb" eventType="touchUpInside" id="JKa-Am-MtN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3D-6i-csw">
+                                <rect key="frame" x="270" y="206" width="60" height="40"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.56213954109999997" green="1" blue="0.80165904030000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="1s4-tl-xQ2" firstAttribute="leading" secondItem="cjY-Pf-XAM" secondAttribute="leading" id="0VW-AX-mNB"/>
+                            <constraint firstItem="k3D-6i-csw" firstAttribute="leading" secondItem="ohD-8k-JdQ" secondAttribute="trailing" id="6NM-FI-Xk2"/>
+                            <constraint firstItem="zwS-Mi-zbv" firstAttribute="top" secondItem="ohD-8k-JdQ" secondAttribute="top" id="7bY-aj-PUp"/>
+                            <constraint firstItem="vlF-Wt-wVG" firstAttribute="height" secondItem="zwS-Mi-zbv" secondAttribute="height" id="BT8-p2-eVh"/>
                             <constraint firstItem="6uU-MM-gpD" firstAttribute="leading" secondItem="cjY-Pf-XAM" secondAttribute="leading" id="G30-md-HXm"/>
+                            <constraint firstItem="ohD-8k-JdQ" firstAttribute="height" secondItem="ndc-x5-X5E" secondAttribute="height" multiplier="0.125" id="HbB-1D-RJ1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cjY-Pf-XAM" secondAttribute="trailing" constant="100" id="ITk-GU-C4F"/>
+                            <constraint firstItem="ohD-8k-JdQ" firstAttribute="centerX" secondItem="ndc-x5-X5E" secondAttribute="centerX" multiplier="0.5" id="JrP-ZR-yTV"/>
                             <constraint firstItem="cjY-Pf-XAM" firstAttribute="top" secondItem="h7C-xf-atb" secondAttribute="bottom" constant="29" id="KHu-3f-FHb"/>
                             <constraint firstItem="6uU-MM-gpD" firstAttribute="leading" secondItem="ndc-x5-X5E" secondAttribute="leadingMargin" constant="192" id="Kbz-Bc-eSV"/>
+                            <constraint firstItem="k3D-6i-csw" firstAttribute="top" secondItem="ohD-8k-JdQ" secondAttribute="bottom" id="N9N-ie-qs4"/>
+                            <constraint firstItem="zQv-BH-aQd" firstAttribute="leading" secondItem="k3D-6i-csw" secondAttribute="trailing" id="PS1-dY-QKZ"/>
+                            <constraint firstItem="cjY-Pf-XAM" firstAttribute="top" secondItem="h7C-xf-atb" secondAttribute="bottom" constant="30" id="Ty4-56-ZB5"/>
+                            <constraint firstItem="ohD-8k-JdQ" firstAttribute="width" secondItem="ndc-x5-X5E" secondAttribute="width" multiplier="0.4" id="U2P-be-NqP"/>
+                            <constraint firstItem="vlF-Wt-wVG" firstAttribute="width" secondItem="ohD-8k-JdQ" secondAttribute="width" id="WAS-gX-YRf"/>
+                            <constraint firstItem="zQv-BH-aQd" firstAttribute="width" secondItem="ohD-8k-JdQ" secondAttribute="width" id="WeX-sb-16e"/>
+                            <constraint firstItem="zwS-Mi-zbv" firstAttribute="width" secondItem="ohD-8k-JdQ" secondAttribute="width" id="YIL-Og-mZk"/>
                             <constraint firstItem="1s4-tl-xQ2" firstAttribute="centerY" secondItem="6uU-MM-gpD" secondAttribute="centerY" id="Yi1-sK-lzS"/>
+                            <constraint firstItem="zQv-BH-aQd" firstAttribute="top" secondItem="vlF-Wt-wVG" secondAttribute="top" id="anU-Hf-5G9"/>
+                            <constraint firstItem="vlF-Wt-wVG" firstAttribute="height" secondItem="ohD-8k-JdQ" secondAttribute="height" id="bVz-zG-kAy"/>
                             <constraint firstItem="1s4-tl-xQ2" firstAttribute="leading" secondItem="cjY-Pf-XAM" secondAttribute="trailing" constant="15" id="bab-OO-kHj"/>
+                            <constraint firstItem="vlF-Wt-wVG" firstAttribute="leading" secondItem="ohD-8k-JdQ" secondAttribute="leading" id="dlm-Jg-i7T"/>
                             <constraint firstItem="cjY-Pf-XAM" firstAttribute="leading" secondItem="ndc-x5-X5E" secondAttribute="leadingMargin" id="e5N-lb-EOo"/>
+                            <constraint firstItem="vlF-Wt-wVG" firstAttribute="top" secondItem="ohD-8k-JdQ" secondAttribute="bottom" constant="40" id="hEt-hb-Pgh"/>
+                            <constraint firstItem="vlF-Wt-wVG" firstAttribute="centerX" secondItem="ndc-x5-X5E" secondAttribute="centerX" id="jJC-IK-IFb"/>
+                            <constraint firstItem="zQv-BH-aQd" firstAttribute="top" secondItem="k3D-6i-csw" secondAttribute="bottom" id="nfM-9O-tkw"/>
+                            <constraint firstItem="zwS-Mi-zbv" firstAttribute="centerX" secondItem="ndc-x5-X5E" secondAttribute="centerX" multiplier="1.5" id="pkv-Pc-8v3"/>
+                            <constraint firstItem="zQv-BH-aQd" firstAttribute="height" secondItem="ohD-8k-JdQ" secondAttribute="height" id="r5L-Ma-v8E"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1s4-tl-xQ2" secondAttribute="trailing" constant="24" id="rCC-69-H3l"/>
+                            <constraint firstItem="zwS-Mi-zbv" firstAttribute="height" secondItem="ohD-8k-JdQ" secondAttribute="height" id="sDH-Bi-XAo"/>
+                            <constraint firstItem="ohD-8k-JdQ" firstAttribute="top" secondItem="6uU-MM-gpD" secondAttribute="bottom" constant="10" id="vUK-Yd-nIT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cjY-Pf-XAM" secondAttribute="trailing" id="vhw-ix-f6m"/>
                             <constraint firstItem="6uU-MM-gpD" firstAttribute="trailing" secondItem="cjY-Pf-XAM" secondAttribute="trailing" id="wW1-tL-TTV"/>
                             <constraint firstItem="6uU-MM-gpD" firstAttribute="top" secondItem="cjY-Pf-XAM" secondAttribute="bottom" constant="8" id="xIo-W8-kN0"/>
+                            <constraint firstItem="zQv-BH-aQd" firstAttribute="leading" secondItem="zwS-Mi-zbv" secondAttribute="leading" id="ymF-T2-Yz2"/>
+                            <constraint firstItem="vlF-Wt-wVG" firstAttribute="width" secondItem="zwS-Mi-zbv" secondAttribute="width" id="z1S-Ny-UQh"/>
+                            <constraint firstItem="cjY-Pf-XAM" firstAttribute="top" secondItem="h7C-xf-atb" secondAttribute="bottom" constant="40" id="z8t-qF-Ulv"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="ITk-GU-C4F"/>
+                                <exclude reference="KHu-3f-FHb"/>
+                                <exclude reference="z8t-qF-Ulv"/>
                                 <exclude reference="Kbz-Bc-eSV"/>
+                                <exclude reference="BT8-p2-eVh"/>
+                                <exclude reference="jJC-IK-IFb"/>
+                                <exclude reference="z1S-Ny-UQh"/>
                                 <exclude reference="0VW-AX-mNB"/>
                                 <exclude reference="bab-OO-kHj"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="buttonFour" destination="zQv-BH-aQd" id="tBg-xA-weo"/>
+                        <outlet property="buttonOne" destination="ohD-8k-JdQ" id="zlz-HW-4Ti"/>
+                        <outlet property="buttonThree" destination="vlF-Wt-wVG" id="qxb-oj-ZaD"/>
+                        <outlet property="buttonTwo" destination="zwS-Mi-zbv" id="mH5-Wy-KTb"/>
+                        <outlet property="scoreLabel" destination="k3D-6i-csw" id="IFZ-36-30u"/>
                         <outlet property="timeLeftLabel" destination="6uU-MM-gpD" id="NjP-kZ-dD0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xv1-5e-bZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1264" y="12"/>
+            <point key="canvasLocation" x="-84" y="725"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

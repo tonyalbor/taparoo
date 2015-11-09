@@ -18,8 +18,10 @@ class TaparooNavigationViewController: UINavigationController, UINavigationContr
         popUpAnimator = PopUpAnimator()
         popDownAnimator = PopDownAnimator()
         super.init(coder: aDecoder)
-        let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: "didPan:")
-        view.addGestureRecognizer(panGestureRecognizer)
+        
+        // needs work
+//        let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: "didPan:")
+//        view.addGestureRecognizer(panGestureRecognizer)
     }
     
     func didPan(gestureRecognizer: UIPanGestureRecognizer) {
@@ -55,7 +57,7 @@ class TaparooNavigationViewController: UINavigationController, UINavigationContr
                 // TODO :: animate back in place
                 let duration: NSTimeInterval = 0.5
                 UIView.animateWithDuration(duration, animations: {
-                topViewController?.view.frame.origin.y = 50
+                self.topViewController?.view.frame.origin.y = 50
                 })
                 
             }
