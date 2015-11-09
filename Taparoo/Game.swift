@@ -104,17 +104,10 @@ class Game: NSObject {
     
     // MARK: - score
     
-    /*
-    * TODO :: maybe this can go elsewhere, like an extension or something
-    * @param button - button which was last tapped
-    * @return Bool - whether game can continue
-    *
-    */
-    func hitButton(button: TaparooButton) -> Bool {
+    func hitButton(button: TaparooButton) {
         
-        // can't play a paused game
-        if isPaused {
-            return false
+        if !canPlay {
+            return
         }
         
         //
@@ -129,19 +122,16 @@ class Game: NSObject {
             
             if button.pointValue <= 0 {
                 end()
-                return false
+                return
             }
             
-            score += button.pointValue
-            return true
+            fallthrough
             
         case .Endure:
-            button.pointValue <= 0 ? --score : ++score
-            return true
+            score += button.pointValue
             
         case .Taparoo:
             score += button.pointValue
-            return true
         }
     }
 }
