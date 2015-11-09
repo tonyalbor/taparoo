@@ -8,6 +8,13 @@
 
 import UIKit
 
+enum GameState: Int {
+    case Waiting
+    case Active
+    case Paused
+    case GameOver
+}
+
 enum GameMode: String {
     case Classic = "Classic"
     case Endure = "Endure"
@@ -28,23 +35,15 @@ class Game: NSObject {
     
     // public
     var score: Int = 0
+    var pauses: Int = 3
     var timeLeft: Double
-    var gameOver: Bool = false
-    var isPaused: Bool = false
+    var state: GameState
     
-    // private
-    private var pausesRemaining: Int = 3
     private var timer: NSTimer
-    private var hasStarted: Bool = false
     
     // whether player can pause the game
     var canPause: Bool {
-        return !isPaused && pausesRemaining > 0
-    }
-    
-    // whether player can play a move
-    var canPlay: Bool {
-        return !gameOver && !isPaused && timeLeft > 0
+        return state == .Active  && pauses > 0
     }
     
     // standard initializer
@@ -53,82 +52,66 @@ class Game: NSObject {
         length = gameLength
         timeLeft = length.rawValue
         timer = NSTimer() // todo :: set up
+        state = .Waiting
+        super.init()
     }
     
     // MARK: - game state modifiers
     
     func start() {
         // todo :: fire off timer
-        hasStarted = true
+        state = .Active
     }
     
-    func pause() -> Bool {
+    func pause() {
         
-        if canPause {
-            --pausesRemaining
-            isPaused = true
-            // todo :: pause timer
-            
-            return true
-        }
-        
-        return false
+        // todo :: pause timer
+        --pauses
+        state = .Paused
     }
     
-    func resume() -> Bool {
+    func resume() {
         
-        if isPaused {
-            isPaused = false
-            // todo :: resume timer
-            
-            return true
-        }
-        
-        return false
+        // todo :: resume timer
+        state = .Active
     }
     
     func end() {
-        gameOver = true
+        state = .GameOver
         // todo :: stop timer
     }
     
     func restart() {
         
-        gameOver = false
-        isPaused = false
+        state = .Waiting
         score = 0
         timer = NSTimer()
         timeLeft = length.rawValue
-        hasStarted = false
+    }
+    
+    func save() {
+        
+        // nscoding
     }
     
     // MARK: - score
     
     func hitButton(button: TaparooButton) {
         
-        if !canPlay {
-            return
-        }
-        
-        //
-        if !hasStarted {
-            start()
-        }
-        
         switch (mode) {
             
-        case .Classic: fallthrough
-        case .Scatter:
-            
-            if button.pointValue <= 0 {
-                end()
-                return
-            }
-            
+        case .Classic:
             fallthrough
             
+        case .Scatter:
+            if button.pointValue <= 0 {
+                end()
+            } else {
+                fallthrough
+            }
+            
         case .Endure:
-            score += button.pointValue
+            fallthrough
             
         case .Taparoo:
             score += button.pointValue
