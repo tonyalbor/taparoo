@@ -10,6 +10,8 @@ import UIKit
 
 class GameViewController: UIViewController, GameDelegate {
     
+    // MARK: - IBOutlet
+    
     @IBOutlet weak var timeLeftLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     
@@ -18,9 +20,12 @@ class GameViewController: UIViewController, GameDelegate {
     @IBOutlet weak var buttonThree: TaparooButton!
     @IBOutlet weak var buttonFour: TaparooButton!
     
-    var selectedButton: TaparooButton?
+    // MARK: - Variables
     
+    var selectedButton: TaparooButton?
     var game: Game?
+    
+    // MARK: - GameDelegate
     
     func timerUpdated() {
         updateTimerLabel()
@@ -31,11 +36,7 @@ class GameViewController: UIViewController, GameDelegate {
         didChangeGame()
     }
     
-    func updateTimerLabel() {
-        if let game = game {
-            timeLeftLabel.text = String(format: ":%.1f", game.timeLeft)
-        }
-    }
+    // MARK: - UIViewControlller
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +44,7 @@ class GameViewController: UIViewController, GameDelegate {
         // Do any additional setup after loading the view.
         if let game = game {
             timeLeftLabel.text = ":\(game.timeLeft)"
-            scoreLabel.hidden = game.score > 0
+            scoreLabel.hidden = game.score == 0
             game.gameDelegate = self
         }
         
@@ -84,6 +85,15 @@ class GameViewController: UIViewController, GameDelegate {
         }
     }
     
+    @IBAction func didPressRestartButton(sender: AnyObject) {
+        game?.restart()
+        didChangeGame()
+    }
+    
+    @IBAction func didPressMainMenuButton(sender: AnyObject) {
+        navigationController?.popToRootViewControllerAnimated(false)
+    }
+    
     @IBAction func tappedIt(sender: TaparooButton) {
         
         guard let game = game else {
@@ -102,13 +112,16 @@ class GameViewController: UIViewController, GameDelegate {
             game.hitButton(sender)
             didChangeGame()
             
-        // just for now, until i put the restart button
-        case .GameOver:
-            game.restart()
-            didChangeGame()
-            
         default:
             return
+        }
+    }
+    
+    // MARK: - Helper
+    
+    func updateTimerLabel() {
+        if let game = game {
+            timeLeftLabel.text = String(format: ":%.1f", game.timeLeft)
         }
     }
     

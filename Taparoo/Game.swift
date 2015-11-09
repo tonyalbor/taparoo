@@ -92,6 +92,8 @@ class Game: NSObject {
         
         state = .Waiting
         score = 0
+        timer?.invalidate()
+        timer = nil
         timeLeft = length.rawValue
         gameDelegate?.timerUpdated()
     }

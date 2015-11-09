@@ -42,7 +42,7 @@ class TaparooButton: UIButton {
         }
         set {
             if newValue {
-                backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.25)
+                backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.1)
             } else {
                 backgroundColor = taparooColor
             }
