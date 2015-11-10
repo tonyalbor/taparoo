@@ -10,6 +10,8 @@ import UIKit
 
 // todo :: make the background color a bit brighter when it is the Tap It! button
 
+let taparooPointValues = [-5, -3, -2, -1, 1, 2, 3, 5]
+
 class TaparooButton: UIButton {
     
     var pointValue: Int = 1
@@ -74,5 +76,12 @@ extension TaparooButton {
         
         pointValue = 1
         setTitle("Tap It!", forState: .Normal)
+    }
+    
+    func setPowerUp(powerUp: UInt32) {
+        
+        pointValue = taparooPointValues[Int(powerUp)]
+        let prefix = pointValue > 0 ? "+" : "" // negative number will already have minus
+        setTitle("\(prefix)\(pointValue)", forState: .Normal)
     }
 }

@@ -206,34 +206,17 @@ class GameViewController: UIViewController, GameDelegate {
     
     
     func setTaparooModeButtons() {
-        // todo
+        chooseNextTaparooButtons()
     }
     
     // MARK: - Update Buttons
     
     func restart() {
         
-        guard let game = game else {
-            return
-        }
-        
-        switch (game.mode) {
-            
-        case .Classic:
-            fallthrough
-            
-        case .Endure:
-            fallthrough
-            
-        case .Scatter:
-            buttonOne.setTapIt()
-            buttonTwo.setTapIt()
-            buttonThree.setTapIt()
-            buttonFour.setTapIt()
-            
-        case .Taparoo:
-            break
-        }
+        buttonOne.setTapIt()
+        buttonTwo.setTapIt()
+        buttonThree.setTapIt()
+        buttonFour.setTapIt()
     }
     
     // update button titles
@@ -297,4 +280,28 @@ class GameViewController: UIViewController, GameDelegate {
     }
     */
 
+}
+
+// crappy logic taken from old code
+extension GameViewController {
+    
+    func chooseNextTaparooButtons() {
+        
+        var powerUp1 = arc4random_uniform(8)
+        let powerUp2 = arc4random_uniform(8)
+        var powerUp3 = arc4random_uniform(8)
+        var powerUp4 = arc4random_uniform(8)
+        
+        while powerUp1 == powerUp2 || powerUp1 == powerUp3 || powerUp1 == powerUp4 || powerUp2 == powerUp3 || powerUp2 == powerUp4 || powerUp3 == powerUp4 {
+            
+            powerUp1 = arc4random_uniform(8)
+            powerUp3 = arc4random_uniform(8)
+            powerUp4 = arc4random_uniform(8)
+        }
+        buttonOne.setPowerUp(powerUp1)
+        buttonTwo.setPowerUp(powerUp2)
+        buttonThree.setPowerUp(powerUp3)
+        buttonFour.setPowerUp(powerUp4)
+    }
+    
 }
