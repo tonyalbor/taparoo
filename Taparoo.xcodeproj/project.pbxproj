@@ -17,6 +17,7 @@
 		EA46988D1BDDD7DC00802919 /* TaparooButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46988C1BDDD7DC00802919 /* TaparooButton.swift */; };
 		EA46988F1BDDDC5F00802919 /* TaparooNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46988E1BDDDC5F00802919 /* TaparooNavigationViewController.swift */; };
 		EA4698911BDDDFCA00802919 /* GameLengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4698901BDDDFCA00802919 /* GameLengthViewController.swift */; };
+		EA494D181BF1990A0068278C /* UIColor+Taparoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA494D171BF1990A0068278C /* UIColor+Taparoo.swift */; };
 		EA6CB0AA1BE9CE7D00FFAD95 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CB0A91BE9CE7D00FFAD95 /* GameViewController.swift */; };
 		EAE045EA1BDE33C9000D3556 /* PopUpAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE045E91BDE33C9000D3556 /* PopUpAnimator.swift */; };
 		EAE045EC1BDE33F7000D3556 /* PopDownAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE045EB1BDE33F7000D3556 /* PopDownAnimator.swift */; };
@@ -49,6 +50,7 @@
 		EA46988C1BDDD7DC00802919 /* TaparooButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaparooButton.swift; sourceTree = "<group>"; };
 		EA46988E1BDDDC5F00802919 /* TaparooNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaparooNavigationViewController.swift; sourceTree = "<group>"; };
 		EA4698901BDDDFCA00802919 /* GameLengthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLengthViewController.swift; sourceTree = "<group>"; };
+		EA494D171BF1990A0068278C /* UIColor+Taparoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Taparoo.swift"; sourceTree = "<group>"; };
 		EA6CB0A91BE9CE7D00FFAD95 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EAE045E91BDE33C9000D3556 /* PopUpAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpAnimator.swift; sourceTree = "<group>"; };
 		EAE045EB1BDE33F7000D3556 /* PopDownAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDownAnimator.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		EA0252371B715EA300FCBCF9 = {
 			isa = PBXGroup;
 			children = (
+				EA494D171BF1990A0068278C /* UIColor+Taparoo.swift */,
 				EA0252421B715EA300FCBCF9 /* Taparoo */,
 				EA0252571B715EA300FCBCF9 /* TaparooUITests */,
 				EA0252411B715EA300FCBCF9 /* Products */,
@@ -226,6 +229,7 @@
 			files = (
 				EA6CB0AA1BE9CE7D00FFAD95 /* GameViewController.swift in Sources */,
 				EA46988D1BDDD7DC00802919 /* TaparooButton.swift in Sources */,
+				EA494D181BF1990A0068278C /* UIColor+Taparoo.swift in Sources */,
 				EA46988F1BDDDC5F00802919 /* TaparooNavigationViewController.swift in Sources */,
 				EAE045EC1BDE33F7000D3556 /* PopDownAnimator.swift in Sources */,
 				EA4698911BDDDFCA00802919 /* GameLengthViewController.swift in Sources */,

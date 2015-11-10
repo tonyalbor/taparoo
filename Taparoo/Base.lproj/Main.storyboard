@@ -39,7 +39,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbg-Oz-TO0" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="30" y="131" width="240" height="75"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.3849481206" blue="0.45591583899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.86274509803921573" green="0.0" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="j3d-Cy-uWF"/>
                                     <constraint firstAttribute="width" constant="100" id="uxz-Bd-JyA"/>
@@ -61,7 +61,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxr-Ea-qsM" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="330" y="131" width="240" height="75"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="lna-aU-QQC"/>
                                     <constraint firstAttribute="width" constant="100" id="w9Z-hM-sEC"/>
@@ -83,7 +83,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaR-1f-11q" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="330" y="246" width="240" height="75"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.92153934525515568" green="0.98684210526315785" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.94117647058823528" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Scatter">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -132,7 +132,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lur-HQ-jff" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="30" y="246" width="240" height="75"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.45376595811494697" green="0.98684210526315785" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Taparoo">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -143,7 +143,7 @@
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.61723527940703082" green="1" blue="0.79904182103256782" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.49803921568627452" green="0.74509803921568629" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="J7G-Ry-Rd4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2ec-KF-Nku"/>
                             <constraint firstItem="Lur-HQ-jff" firstAttribute="leading" secondItem="vbg-Oz-TO0" secondAttribute="leading" id="2pe-Op-x4J"/>
@@ -295,7 +295,7 @@
                                 <rect key="frame" x="20" y="50" width="560" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":30.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uU-MM-gpD">
@@ -305,7 +305,7 @@
                                     <constraint firstAttribute="height" constant="42" id="GPM-qi-rh0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1s4-tl-xQ2">
@@ -322,7 +322,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohD-8k-JdQ" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="30" y="130" width="240" height="75"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.3849481206" blue="0.45591583899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.86274509803921573" green="0.0" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Tap It!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -333,7 +333,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwS-Mi-zbv" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="330" y="130" width="240" height="75"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Tap It!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -344,7 +344,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlF-Wt-wVG" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="30" y="245" width="240" height="75"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.45376595809999998" green="0.98684210530000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Tap It!">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -355,7 +355,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQv-BH-aQd" customClass="TaparooButton" customModule="Taparoo" customModuleProvider="target">
                                 <rect key="frame" x="330" y="245" width="240" height="75"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.92153934530000003" green="0.98684210530000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.94117647058823528" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Tap It!">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -367,7 +367,7 @@
                                 <rect key="frame" x="270" y="205" width="60" height="40"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhs-lO-g9w">
@@ -394,7 +394,7 @@
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.56213954109999997" green="1" blue="0.80165904030000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.47058823529411764" green="0.74509803921568629" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="1s4-tl-xQ2" firstAttribute="leading" secondItem="cjY-Pf-XAM" secondAttribute="leading" id="0VW-AX-mNB"/>
                             <constraint firstItem="k3D-6i-csw" firstAttribute="leading" secondItem="ohD-8k-JdQ" secondAttribute="trailing" id="6NM-FI-Xk2"/>
