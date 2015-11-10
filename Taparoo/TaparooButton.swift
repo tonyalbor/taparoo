@@ -22,13 +22,29 @@ class TaparooButton: UIButton {
         layer.cornerRadius = 2 // todo :: tweak
     }
     
-    func reset() {
-        reset(.Classic)
+    func reset(game: Game) {
+        reset(game.mode)
     }
     
-    func reset(mode: GameMode) {
-        pointValue = 0
-        setTitle("", forState: .Normal)
+    private func reset(mode: GameMode) {
+        
+        switch (mode) {
+            
+        case .Classic:
+            fallthrough
+            
+        case .Scatter:
+            pointValue = 0
+            setTitle("", forState: .Normal)
+            
+        case .Taparoo:
+            pointValue = 0
+            
+        case .Endure:
+            pointValue = -1
+            setTitle("", forState: .Normal)
+        }
+        
     }
     
     func gameOver() {

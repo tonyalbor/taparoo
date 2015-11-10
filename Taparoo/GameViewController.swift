@@ -22,6 +22,7 @@ class GameViewController: UIViewController, GameDelegate {
     
     // MARK: - Variables
     
+    var previousN: UInt32?
     var selectedButton: TaparooButton?
     var game: Game?
     
@@ -246,16 +247,21 @@ class GameViewController: UIViewController, GameDelegate {
     // determine which button should be next Tap It!
     func nextN() -> UInt32 {
         
-        guard let selectedButton = selectedButton else {
-            return 0
+        if previousN == nil {
+            previousN = selectedButton?.number
+        }
+        
+        guard let previousN = previousN else {
+            return 1
         }
         
         // find next button
         var nextN = arc4random_uniform(4) + 1
-        while selectedButton.number == nextN {
+        while previousN == nextN {
             nextN = arc4random_uniform(4) + 1
         }
         
+        self.previousN = nextN
         // plus 1 since the random will be between 0...3, but the button numbers are 1...4
         return nextN
     }
@@ -270,10 +276,15 @@ class GameViewController: UIViewController, GameDelegate {
     }
     
     func resetButtons() {
-        buttonOne.reset()
-        buttonTwo.reset()
-        buttonThree.reset()
-        buttonFour.reset()
+        
+        guard let game = game else {
+            return
+        }
+        
+        buttonOne.reset(game)
+        buttonTwo.reset(game)
+        buttonThree.reset(game)
+        buttonFour.reset(game)
     }
 
     /*
