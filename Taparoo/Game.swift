@@ -125,6 +125,11 @@ class Game: NSObject {
         case .Taparoo:
             score += button.pointValue
         }
+        
+        // no negative scores
+        if score < 0 {
+            score = 0
+        }
     }
     
     // MARK: - Timer
